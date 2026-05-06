@@ -1,25 +1,25 @@
 class GitCa < Formula
   desc "git plugin that drafts commit messages using GitHub Copilot"
   homepage "https://github.com/hankcraft/git-ca"
-  version "0.2.4"
+  version "0.2.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.4/git-ca-aarch64-apple-darwin.tar.xz"
-      sha256 "77d0da973d21e6ede510c368a6f91bc437782d23a8d171abbae8dfd97c397e0b"
+      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.5/git-ca-aarch64-apple-darwin.tar.xz"
+      sha256 "0454803415b3e0802c3fe79bc37883b2af4b80d11add461f83fc127799e35c29"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.4/git-ca-x86_64-apple-darwin.tar.xz"
-      sha256 "22c9f8998656f81b8e07816f191a10bc4dfff08c21f28ad4fbdbe3776c3fcfc0"
+      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.5/git-ca-x86_64-apple-darwin.tar.xz"
+      sha256 "370e61c71e939d3b17755b5dd419283a161cd5d198a7f1b30aa0fa1834d9bdb2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.4/git-ca-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "19aff592b3eef20f7d668ebc2eb676eaa2a95f7e2056aebf7f8b3eb8d48aa86d"
+      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.5/git-ca-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "56724a5f244da5a13d42b8b2f0592b4907337dc90528e15075b499e4c15615a8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.4/git-ca-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2bd191a7c7e1ea4dd272ab171ef423346d72a2f485d05b663ebf9c713e7bd013"
+      url "https://github.com/hankcraft/git-ca/releases/download/v0.2.5/git-ca-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "19b4927d4a380a5352b6dde758637faeae383f621e1bfa7dda81ebd2d2560e47"
     end
   end
   license "MIT"
